@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>AdminPanel</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="bootstrap/fonts/font-awesome-4.2.0/css/font-awesome.css" rel="stylesheet">
+  
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <img id="navlogo" src="http://dev01.prevueit.com/img/prevueit.png" alt="prevueit" class="navbar-brand">
+          </div><!--col-xs-12-->
+        </div><!--/>row-->
+      </div> <!--/container-->
+  </nav>
+
+<div class="container-fluid main-content">
+  <div class="row">
+    <div id="admincr" class="col-sm-6">
+      <form class="form" role="form" method="POST" action="#">
+        <div class="row">
+          <div class="hboxfsect" class="col-sm-12">
+            <h1>Create Your Customized URL</h1>
+          </div><!--/#hbox-row-->
+        </div><!--/.row-->
+
+        <div class="row">
+          <div class="col-xs-6">
+
+            <div class="row">
+              <div id="coname" class="col-sm-12">          
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-building fa-fw"></i></span>
+                  <input id="orgname" class="form-control input-lg" type="text" placeholder="Name of Organization">
+                </div> <!--.input-group -->
+              </div><!-- .conname -->
+            </div><!-- .row -->
+            
+            <div class="row">
+              <div id="variable" class="col-sm-12">          
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-link fa-fw"></i></span>
+                  <input id="orgvar" class="form-control input-lg" type="text" placeholder="Variable">
+                </div> <!--.input-group -->
+              </div><!-- .variable -->
+            </div><!-- .row -->
+          </div><!-- .col-xs-6 -->
+        
+        <div class="row">
+            <div class="col-xs-6">
+              <!--checkboxes-->
+              <div id="checsect" class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Introduction
+                </label>
+              </div>
+              <div id="checsect" class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Education
+                </label>
+              </div>
+              <div id="checsect" class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Employment
+                </label>
+              </div>
+              <div id="checsect" class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Q&A
+                </label>
+              </div>
+              <div id="checsect" class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Skills/Misc
+                </label>
+              </div>
+          </div> <!--/.col-xs-6-checkboxes-->
+         </div> <!--/.row -->
+        </div><!--/.row-->
+
+          <div class="row">
+            <div  class="col-xs-12">
+              <a id="genurl" class="btn btn-success col-xs-4">Generate URL</a>
+              <input id="customurl" class="form-control-custom col-xs-8" type="text" placeholder="prevueit.com/custom/url">
+            </div><!--/#genurl.col-xs-12--> 
+          </div><!--/.row-->
+
+          <div class="row">
+            <div id="sendemail" class="col-xs-12">
+              <a href="" class="btn btn-primary col-xs-5 col-sm-4">Email URL</a>
+              <input class="form-control-custom col-xs-7 col-sm-8" type="text" placeholder="add max 10 emails seperate by commas">
+            </div><!--/#genurl.col-xs-12--> 
+          </div><!--/.row-->
+        
+      </form> <!--/form-->
+    </div><!--/.admincr.col-sm-6-->
+
+      <div id="preferred" class="col-sm-4">
+        <div class="row">
+          <div class="hboxfsect" class="col-sm-12">
+            <h1>Preferred Bin</h1>
+          </div> <!--/#hbox2.col-sm-12-->
+        </div> <!--/.row-->    
+      </div> <!--/.col-sm-4-->
+
+
+      <div class="row">
+          <div id="urlprevbox" class="col-sm-10"> 
+            <div class="hboxfsect" class="col-sm-12">
+            <h1>Candidate Response Videos</h1>    
+          </div><!--./#urlprevbox.col-sm-12-->  
+      </div><!--/.row-->
+            </div>
+
+
+  </div><!--/.row-->    
+</div><!--/.container-fluid main-content-->
+
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <a class="socialIcons" href="http://facebook.com/francwon" title="friend francwon on facebook"> 
+                  <i class="fa fa-facebook fa-3x"></i></a>
+
+                <a class="socialIcons" href="http://twitter.com/francwon" title="follow francwon on twitter"> 
+                  <i class="fa fa-twitter fa-3x"></i></a>
+
+                <a class="socialIcons" href="www.linkedin.com/in/frankjones78/" title="connect with Frank Jones on LinkedIn"> 
+                  <i class="fa fa-linkedin fa-3x"></i></a>
+                 <p class="navbar-text pull-right">powered by commonsky</p>
+               </div><!--col-xs-12-->
+            </div> <!--/.row-->
+          </div> <!--./container-->       
+     </nav> <!--/navbar-->  
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ <!--Fallback to load jQuery locally if CDN is unavailable-->
+  <script>
+  (window.jQuery || document.write('<script src="/scripts/jquery-1.10.2.min.js"><\/script>'));
+  </script>
+
+  <script src="bootstrap/js/clone.js"></script>
+  <script src="bootstrap/js/dropzone.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+  
+
+</body>
+</html>

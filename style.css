@@ -1,0 +1,472 @@
+#my-awesome-dropzone{
+    border: 2px solid #C8C7C9;
+}
+
+#importinbox {
+    border: 2px solid #C8C7C9;
+}
+
+#paper{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+#in1{margin-top: 5%; 
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+.eduform{
+    border: 2px solid #C8C7C9;
+    position: relative; 
+    padding: 10px; 
+}
+
+.profform{
+    border: 2px solid #F7364A;
+    position: relative; 
+    padding: 10px; 
+}
+
+.form_border{
+    border: 2px solid #C8C7C9;
+    position: relative; 
+    padding: 10px; 
+}
+
+.employform{
+    border: 2px solid #C8C7C9;
+    position: relative; 
+    padding: 10px; 
+}
+
+.eduform .row{
+    position: relative;
+    margin-bottom: 10px;  
+}
+
+.employform .row {
+  position: relative;
+  margin-bottom: 10px; 
+}
+
+.eduform .row{
+    position: relative;
+    margin-bottom: 10px;  
+}
+
+.required .row {
+  position: relative;
+  margin-bottom: 10px; 
+}
+
+.form_border .row{
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.camera_tag .row{
+    position: relative;
+    margin:0px; 
+}
+.required{
+  border: 2px solid #E88E92;
+  position: relative; 
+  padding: 10px;
+}
+
+#gearbutton.btn-default {
+color: #333333;
+background-color: #f5f5f5;
+}
+
+#hboxfbuild.btn-default {
+color: #333333;
+background-color: red;
+}
+
+#paper.btn-default {
+margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;  
+}
+
+
+.ui-tooltip {
+    border: 1px solid white;
+    background: #111;
+    color: white;
+  }
+
+.employform:first-child {
+  border-top:0px;
+}
+
+.input-group-addon{
+padding: 6px 10px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1;
+color: #555;
+text-align: center;
+background-color: #eee;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+}
+
+body .form-control{
+display: block;
+width: 100%;
+height: 60px;
+padding: 6px 15px;
+font-size: 18px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 2px solid #C8C7C9;
+border-radius: 4px;
+}
+
+.checkbox-inline{
+margin-top: 0px;	
+font-size: 18px;		
+}
+
+
+.input-lg{background-color: blue;
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+margin: 0px;
+font-size: 18px;
+}
+
+#addcompany { 
+  margin-top: 10px;
+}
+
+#removecompany {
+  margin-bottom: 5px;
+    
+}
+
+#addschool { 
+  margin-top:10px;
+}
+
+#removeschool {
+  margin-bottom: 5px;
+    
+}
+.hide {
+  display: none;
+}
+
+#employforms .employform:nth-child(1) .removecompany {
+  display: none;
+}
+
+#eduforms .eduform:nth-child(1) .removeschool {
+  display: none;
+}
+
+#ressmall { 
+    margin-left:25px;
+    height: 55px;
+    width: 55px;
+}    
+
+#insmall{
+    margin-left:25px;
+    height: 46px;
+    width: 46px;
+}
+
+#navlogo{
+    height: 67px;
+    width: 87px;
+}
+
+#video-camera{
+    color: #ccc;  
+}
+
+#search{ 
+    color: #ccc; 
+}
+
+#search.col-xs-1{
+  padding: 0px;
+}
+
+.breadcrumb {
+padding:0px;
+margin-bottom: 0px;
+list-style: none;
+background-color: #f5f5f5;
+border-radius: 0px;
+border: 2px solid #C8C7C9;
+text-align: center;
+}
+
+.camera_tag{
+    border: 2px solid #C8C7C9;
+    height: 250px;
+    margin-top:25px; 
+    background-color: #f5f5f5;
+    margin-bottom: 65px;
+}
+
+.main-content {
+    padding: 7% 1%;
+}
+
+#ctagrec, #faup, #mobile {
+    color: #3E8ACC;
+    display: inline-block;
+    width: 31.9%;
+    text-align: center;
+    margin: 15.3333% 0 0;
+    margin-top: 8%;
+}
+
+.vidroomicons {
+    color: #3E8ACC;
+    margin:15px;
+    margin-bottom: 0px; 
+}
+
+
+#tool-bar a {
+    display: inline-block;
+    width: 31.9%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#tool-bar a.search {
+
+}
+
+#tool-bar a.search:hover {
+    
+}
+
+#admincr {
+    border: 2px solid #C8C7C9;
+    height: 320px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+    margin-top:25px;  
+
+}
+
+#preferred {
+    border: 2px solid #C8C7C9;
+    height: 320px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+    margin-top:25px;       
+}
+
+#urlprevbox{
+    border: 2px solid #C8C7C9;
+    height: 320px;
+    width: 84.33333333%;
+    background-color: #f5f5f5;
+    margin-bottom: 65px;
+    margin-top:0px;
+    margin-left: 55px;
+    margin-right: 40px;
+    padding: 0px;
+}
+
+
+.hboxfsect {
+    border: 1px solid #C8C7C9;
+    height: 42px;
+    border-right:0px;
+    border-top: 0px;
+    border-left: 0px; 
+    background-color: #3979D9;  
+}
+
+#hboxfbuild {
+    border: 1px solid #C8C7C9;
+    height: 42px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+
+.hboxfsect h1{
+    font-size: 28px;
+    margin-top: 0px;
+    color: #fff;
+    font-family: Century Gothic;
+    text-align: center;
+}
+
+#hboxfbuild h1{
+    font-size: 28px;
+    margin-top: 5px;
+    text-align: center;
+    color: #3979D9;
+    font-family: Century Gothic;
+}
+
+
+
+#coname{
+    margin-top:10px;
+}
+
+#variable{
+    margin-top:10px;
+}
+
+#genurl{
+    margin-top: 25px;
+}
+
+#customurl{
+    margin-top: 25px;
+}
+
+#sendemail{
+    margin-top: 35px;
+}
+
+#checsect{ 
+    margin-left: 65px;
+}
+
+ #myButton {
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+background-repeat: repeat-x;
+border-color: #0044cc #0044cc #002a80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+    
+/* Social Media Icons
+----------------------------------------------- */
+
+.socialIcons i {
+    margin: 0 30px;
+    color:black;
+}
+
+
+a.socialIcons:hover {
+    opacity: .8;
+    filter:alpha(opacity=80);
+}
+
+/* Social Media Icons
+----------------------------------------------- */
+
+.form-control-custom {
+  display: inline-block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control-custom:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control-custom::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control-custom:-ms-input-placeholder {
+  color: #999;
+}
+.form-control-custom::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control-custom[disabled],
+.form-control-custom[readonly],
+fieldset[disabled] .form-control-custom {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+
+
+/*///MEDIA QUERIES///*/
+
+@media only screen and (min-width: 762px) {
+   #tool-bar a {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+   #admincr{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
+
+    #admincr h1{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+   #preferred{
+        margin-top:5px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 15px;}
+
+    #hbox h1{
+        font-size: 21px;}
+      }
+
+
+@media only screen and (max-width: 440px) {
+   #checsect{ 
+    margin-left: 35px;
+}
+    #hbox h1{
+        font-size: 21px;}
+
+    #hbox3 h1{
+    font-size: 21px;}
+
+     #urlprevbox{
+        margin-top:5px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 115px;}
+
+      }  
